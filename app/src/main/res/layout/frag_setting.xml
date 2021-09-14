@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".fragments.FragSetting">
+    <TextView
+        android:id="@+id/txt_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome, Abc"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/btn_my_profile"
+        android:background="@drawable/btn_ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:padding="15dp"
+        android:clickable="true"
+        android:text="My profile"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp" />
+    <TextView
+        android:id="@+id/btn_change_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:clickable="true"
+        android:padding="15dp"
+        android:background="@drawable/btn_ripple"
+        android:text="Change Password"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp" />
+    <TextView
+        android:id="@+id/btn_change_exp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/btn_ripple"
+        android:clickable="true"
+        android:padding="15dp"
+        android:text="Change Expected Expense"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp" />
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="@drawable/btn_ripple"
+            android:id="@+id/btn_reminder"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/reminder"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp" />
+    <!--  <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="15dp"
+         android:layout_marginTop="25dp"
+         android:layout_marginEnd="15dp"
+         android:padding="15dp"
+         android:text="My profile"
+         android:textColor="@color/black"
+         android:textSize="20sp" />
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginStart="15dp"
+         android:layout_marginEnd="15dp" />-->
+</LinearLayout>
+
+
+
+
+

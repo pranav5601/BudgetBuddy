@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+    <color name="menu_text_color">#C2C2C2</color>
+    <color name="menu_divider">#393939</color>
+    <color name="hint_color">#a9a9a9</color>
+
+    <color name="dark_gray">#666C76</color>
+    <color name="gray">#72666c76</color>
+    <color name="light_black">#c3000000</color>
+    <color name="grey">#999999</color>
+    <color name="text_color">#999999</color>
+    <color name="yellow">#FDDF45</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="sep">#95c1c1c1</color>
+    <color name="viewpager_tab_color">#4B3875</color>
+    <color name="black_tran">#60000000</color>
+    <color name="textTitleColor">#6d6e71</color>
+
+
+    <color name="ripple_color">#7ba9a8a8</color>
+    <color name="ripple_white">#b9d9d9d9</color>
+    <color name="statusBarColor">#281D43</color>
+    <color name="dividerColorTheme">#1C0B39</color>
+    <color name="app_color">#202932</color>
+    <color name="disable_color">#b9d9d9d9</color>
+    <color name="app_common_color">#666D75</color>
+    <color name="disable_bg_color">#80666c76</color>
+
+
+    <color name="groceries">#FFA726</color>
+    <color name="food">#66BB6A</color>
+    <color name="medical">#EF5350</color>
+    <color name="transport">#29B6F6</color>
+    <color name="misc">#DB33FF</color>
+    <color name="investment">#D2007F</color>
+    <color name="orange">#FF8118</color>
+</resources>

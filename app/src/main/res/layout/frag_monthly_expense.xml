@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    tools:context=".fragments.FragMonthlyExpense">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtTitleMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Pie chart for "
+                android:textColor="@color/black"
+                android:textSize="@dimen/big_text" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/lyt_month"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/pie_chart_monthly"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"/>
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:padding="10dp"
+                            android:id="@+id/btn_previous_month"
+                            android:layout_margin="15dp"
+                            android:textColor="@color/white"
+                            android:textAllCaps="false"
+                            android:text="Previous Month"
+                            android:background="@color/colorPrimary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:padding="10dp"
+                            android:enabled="false"
+                            android:id="@+id/btn_current_month"
+                            android:layout_margin="15dp"
+                            android:textColor="@color/white"
+                            android:textAllCaps="false"
+                            android:text="Current Month"
+                            android:background="@color/colorPrimary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    tools:visibility="visible"
+                    android:id="@+id/txt_empty_msg_month"
+                    android:text="No expenses added!"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

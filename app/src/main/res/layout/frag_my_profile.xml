@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".fragments.FragMyProfile">
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:text="Your Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="@dimen/big_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txt_disp_user_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/very_very_big_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="User Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/light_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textSize="@dimen/big_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Email ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txt_disp_user_email"
+        android:textColor="@color/black"
+        android:textSize="@dimen/very_very_big_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="01/01/2000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/light_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textSize="@dimen/big_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Mobile No."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txt_disp_user_phone"
+        android:textColor="@color/black"
+        android:textSize="@dimen/very_very_big_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="9999988888"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/light_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>
+
+
+
+
+

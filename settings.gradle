@@ -1,0 +1,3 @@
+include ':menudrawer'
+include ':app'
+rootProject.name = "Budget Buddy"

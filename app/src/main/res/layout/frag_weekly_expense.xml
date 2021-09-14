@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".fragments.FragWeeklyExpense">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Pie chart for last week expense"
+                android:textColor="@color/black"
+                android:textSize="@dimen/big_text" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pie_chart_weekly"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    tools:visibility="visible"
+                    android:id="@+id/txt_empty_msg_week"
+                    android:text="No expenses in last week!"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
